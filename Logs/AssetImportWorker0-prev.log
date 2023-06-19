@@ -1,0 +1,167 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jinwookim/flappybird/flappybird
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58090
+Successfully changed project path to: /Users/jinwookim/flappybird/flappybird
+/Users/jinwookim/flappybird/flappybird
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jinwookim/flappybird/flappybird/Assets
+GfxDevice: creating device client; threaded=0
+2021-10-12 00:21:49.901 Unity[29093:2121948] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-10-12 00:21:49.901 Unity[29093:2121948] Metal devices available: 2
+2021-10-12 00:21:49.901 Unity[29093:2121948] 0: AMD Radeon Pro 5300M (high power)
+2021-10-12 00:21:49.901 Unity[29093:2121948] 1: Intel(R) UHD Graphics 630 (low power)
+2021-10-12 00:21:49.901 Unity[29093:2121948] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56093
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000521 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 60.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.293 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.0 MB.
+System memory in use after: 174.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 2.666291 ms (FindLiveObjects: 0.211065 ms CreateObjectMapping: 0.085661 ms MarkObjects: 2.225193 ms  DeleteObjects: 0.143274 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/PlayScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlayScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f02a14fcb8cffcc043acb40103c1bb') in 0.012503 seconds
+  Import took 0.017659 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.1 MB.
+System memory in use after: 174.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 2.516491 ms (FindLiveObjects: 0.254726 ms CreateObjectMapping: 0.098011 ms MarkObjects: 2.051650 ms  DeleteObjects: 0.110907 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.689386 seconds.
+  path: Assets/Scenes/GameOverScene.unity
+  artifactKey: Guid(1037d5dc7c4ad472cba7e30084a7275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOverScene.unity using Guid(1037d5dc7c4ad472cba7e30084a7275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6439ecc1273773febfa99a92c9f8e6f7') in 0.013483 seconds
+  Import took 0.017946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Scenes/GameOverScene.unity
+  artifactKey: Guid(1037d5dc7c4ad472cba7e30084a7275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOverScene.unity using Guid(1037d5dc7c4ad472cba7e30084a7275c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6439ecc1273773febfa99a92c9f8e6f7') in 0.001146 seconds
+  Import took 0.004287 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 2.086086 ms (FindLiveObjects: 0.175404 ms CreateObjectMapping: 0.067753 ms MarkObjects: 1.743390 ms  DeleteObjects: 0.098867 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.758535 seconds.
+  path: Assets/ScoreUp.cs
+  artifactKey: Guid(944e3945c89a4423aa327c3349c4b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScoreUp.cs using Guid(944e3945c89a4423aa327c3349c4b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6691d4fd928c8a01a9a81356ce3ab54') in 0.325737 seconds
+  Import took 0.328877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133368 seconds.
+  path: Assets/ScoreUp.cs
+  artifactKey: Guid(944e3945c89a4423aa327c3349c4b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScoreUp.cs using Guid(944e3945c89a4423aa327c3349c4b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6691d4fd928c8a01a9a81356ce3ab54') in 0.001604 seconds
+  Import took 0.004480 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.9 MB.
+System memory in use after: 178.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 2.050433 ms (FindLiveObjects: 0.178871 ms CreateObjectMapping: 0.063443 ms MarkObjects: 1.730720 ms  DeleteObjects: 0.076719 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
